@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+.btn-secondary {
+    background-color: gray;
+    color: white;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid black;
+}
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    margin: 5px;
+}
+.badge-blue {
+    background-color: blue;
+}
+.badge-green {
+    background-color: green;
+}
+.badge-red {
+    background-color: red;
+}
+.alert {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: white;
+}
+.success {
+    background-color: green;
+}
+.warning {
+    background-color: orange;
+}
+.error {
+    background-color: red;
+}
