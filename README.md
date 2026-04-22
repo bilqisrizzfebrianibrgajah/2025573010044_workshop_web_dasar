@@ -1,0 +1,7 @@
+# 2025573010044_Workshop_Web_Dasar
+
+nama : BILQIS RIZ FEBRIANI BR GAJAH
+
+nim : 2025573010044
+
+TI-1C
