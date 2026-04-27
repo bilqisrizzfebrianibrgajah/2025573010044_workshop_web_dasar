@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlowSkin - Skincare Terpercaya</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body
+    class="bg-rose-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-300"
+  >
+    <nav
+      class="sticky top-0 z-50 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border-b border-rose-100 dark:border-gray-700 shadow-sm"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-rose-500 italic">GlowSkin</h1>
+        <div class="flex items-center space-x-6">
+          <div class="hidden md:flex space-x-6 font-medium">
+            <a href="#" class="hover:text-rose-500">Home</a>
+            <a href="#produk" class="hover:text-rose-500">Produk</a>
+          </div>
+          <button
+            id="dark-mode-toggle"
+            class="p-2 bg-rose-100 dark:bg-gray-700 rounded-full transition hover:scale-110 cursor-pointer"
+          >
+            <span id="mode-icon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="container mx-auto px-6 py-16 flex flex-col-reverse md:flex-row items-center"
+    >
+      <div class="md:w-1/2 mt-10 md:mt-0">
+        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight">
+          Pancarkan Cantik <span class="text-rose-500">Alami</span>.
+        </h2>
+        <p class="mt-6 text-lg opacity-80">
+          Rangkaian produk skincare terbaik yang diformulasikan khusus untuk
+          kesehatan kulitmu.
+        </p>
+        <button class="btn-glow mt-10">Belanja Sekarang</button>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img
+          src="https://nihonmart.id/pub/media/catalog/tmp/category/Logo_Skintific-min.png"
+          class="rounded-3xl shadow-2xl animate-bounce-slow w-4/5"
+          alt="Skincare Hero"
+        />
+      </div>
+    </section>
+
+    <section
+      id="produk"
+      class="py-20 bg-white dark:bg-gray-800 transition-colors"
+    >
+      <div class="container mx-auto px-6">
+        <h3
+          class="text-3xl font-bold text-center mb-12 italic underline decoration-rose-300"
+        >
+          Our Best Sellers
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2D3otHBubzJoAIJUuQ1A8RobSiWWTOryQg&s"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt="Retinol Skin Renewal Moisturizer "
+              />
+            </div>
+            <h4 class="text-xl font-bold">Retinol Skin Renewal Moisturizer</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 150.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://medias.watsons.co.id/publishing/WTCID-61270-side-thumbnail.jpg?version=1759246584"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt="5X Ceramide Barrier Moisture Gel"
+              />
+            </div>
+            <h4 class="text-xl font-bold">5X Ceramide Barrier Moisture Gel</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 85.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://img.lazcdn.com/g/p/147c4e9acf8c315c3a4b1fb1d291e968.jpg_720x720q80.jpg"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt="3X Acid Anti-Acne Moisturizer"
+              />
+            </div>
+            <h4 class="text-xl font-bold">3X Acid Anti-Acne Moisturizer</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 120.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://id-test-11.slatic.net/p/87bafc5c1f7aa2b574e69a0be2bdb90d.png"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt="Truffle Biome Skin Cream Gel Moisturizer"
+              />
+            </div>
+            <h4 class="text-xl font-bold">Truffle Biome Skin Cream Gel Moisturizer</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 175.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcNdzkkgW2qbZ5dlXh5WIWzlywDIVDWX5Fg&s"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt="17% Dark Spot Moisture Gel"
+              />
+            </div>
+            <h4 class="text-xl font-bold">17% Dark Spot Moisture Gel</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 210.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+
+          <div class="card-product group">
+            <div class="overflow-hidden rounded-xl mb-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOwDkKlEqYO7vAaHX6fOAT7lKTcQxn2tSGQ&s"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-500"
+                alt=" Niacinamide Brightening Moisture Gel"
+              />
+            </div>
+            <h4 class="text-xl font-bold">Niacinamide Brightening Moisture Gel</h4>
+            <p class="text-rose-500 font-bold mt-2">Rp 225.000</p>
+            <button class="btn-buy">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-10 text-center bg-rose-50 dark:bg-gray-900 border-t border-rose-100 dark:border-gray-800"
+    >
+      <p>&copy; 2026 GlowSkin Store. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

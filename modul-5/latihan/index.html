@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charmed Cakes</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header class="bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-50">
+      <div class="container-main py-4 flex justify-between items-center">
+        <h1 class="text-xl md:text-2xl font-bold text-pink-600">
+          Charmed Cakes
+        </h1>
+        <nav>
+          <ul
+            class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-700 dark:text-gray-300 items-center"
+          >
+            <li><a href="#" class="hover:text-pink-600 transition">Home</a></li>
+            <li><a href="#" class="hover:text-pink-600 transition">Menu</a></li>
+            <li>
+              <a href="#" class="hover:text-pink-600 transition">Testimoni</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-pink-600 transition">Kontak</a>
+            </li>
+            <button
+              class="dark-mode-toggle"
+              id="dark-mode-toggle"
+              title="Toggle Dark Mode"
+            >
+              <span class="light-icon">🌙</span>
+              <span class="dark-icon hidden">☀️</span>
+            </button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      class="py-12 md:py-16 lg:py-20 bg-gradient-to-r from-pink-50 to-red-50 dark:from-gray-800 dark:to-gray-900"
+    >
+      <div
+        class="container-main grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
+      >
+        <div>
+          <h2
+            class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4"
+          >
+            Kue Manis yang Membawa Keajaiban ✨
+          </h2>
+          <p class="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-6">
+            Dibuat dengan bahan terbaik untuk momen spesialmu.
+          </p>
+          <button class="btn-primary">Pesan Sekarang</button>
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJ2xiK8bAwOKSIvzHgqKDhuijqlaLCPVATA&s"
+            alt="cupcake"
+            class="rounded-lg shadow-lg max-w-full h-auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 lg:py-20 bg-white dark:bg-gray-900">
+      <h2 class="section-title">Menu Favorit</h2>
+      <div class="container-main card-grid">
+        <div class="cake-card">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSdzWEORWC0wJg4vAD8zyOla0JlyrobExm1OeFVQmpDv1SYx9O0"
+            alt="Chocolate Cake"
+            class="w-full h-40 md:h-48 object-cover rounded-lg mb-4"
+          />
+          <h3
+            class="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2"
+          >
+            Chocolate Cake
+          </h3>
+          <p class="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-3">
+            Lembut dengan coklat premium.
+          </p>
+          <p class="text-base md:text-lg font-bold text-pink-600">
+            <strong>Rp50.000</strong>
+          </p>
+        </div>
+
+        <div class="cake-card">
+          <img
+            src="https://i.pinimg.com/736x/b8/69/99/b869995d0c77ad95e01a984e50df7e88.jpg"
+            alt="Strawberry Cake"
+            class="w-full h-40 md:h-48 object-cover rounded-lg mb-4"
+          />
+          <h3
+            class="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2"
+          >
+            Strawberry Cake
+          </h3>
+          <p class="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-3">
+            Segar dengan topping buah asli.
+          </p>
+          <p class="text-base md:text-lg font-bold text-pink-600">
+            <strong>Rp55.000</strong>
+          </p>
+        </div>
+
+        <div class="cake-card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QzS2DQuIsgTnL-HDkK7pk5hXzG3mqqOM6A&s"
+            alt="Birthday Cake"
+            class="w-full h-40 md:h-48 object-cover rounded-lg mb-4"
+          />
+          <h3
+            class="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-2"
+          >
+            Birthday Cake
+          </h3>
+          <p class="text-sm md:text-base text-gray-600 dark:text-gray-300 mb-3">
+            Cocok untuk semua perayaan.
+          </p>
+          <p class="text-base md:text-lg font-bold text-pink-600">
+            <strong>Rp400.000</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 lg:py-20 bg-gray-50 dark:bg-gray-800">
+      <h2 class="section-title">Testimoni Pelanggan</h2>
+      <div class="container-main card-grid">
+        <div
+          class="bg-white dark:bg-gray-700 p-6 md:p-8 rounded-3xl shadow-md border border-gray-100 dark:border-gray-600"
+        >
+          <p
+            class="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-4 italic"
+          >
+            "Kuenya enak banget!"
+          </p>
+          <h4 class="text-gray-900 dark:text-white font-semibold">- siti</h4>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-700 p-6 md:p-8 rounded-3xl shadow-md border border-gray-100 dark:border-gray-600"
+        >
+          <p
+            class="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-4 italic"
+          >
+            "Selalu pesan di sini."
+          </p>
+          <h4 class="text-gray-900 dark:text-white font-semibold">- dilla</h4>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-700 p-6 md:p-8 rounded-3xl shadow-md border border-gray-100 dark:border-gray-600"
+        >
+          <p
+            class="text-sm md:text-base text-gray-700 dark:text-gray-300 mb-4 italic"
+          >
+            "Cantik dan lezat!"
+          </p>
+          <h4 class="text-gray-900 dark:text-white font-semibold">- amara</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+      <div
+        class="container-main grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8"
+      >
+        <div>
+          <h3 class="text-lg md:text-xl font-bold mb-3">Charmed Cakes</h3>
+          <p class="text-sm md:text-base text-gray-400">
+            Kue lezat dengan sentuhan keajaiban.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg md:text-xl font-bold mb-3">Menu</h3>
+          <p class="text-sm md:text-base text-gray-400">Chocolate Cake</p>
+          <p class="text-sm md:text-base text-gray-400">Strawberry Cake</p>
+        </div>
+        <div>
+          <h3 class="text-lg md:text-xl font-bold mb-3">Kontak</h3>
+          <p class="text-sm md:text-base text-gray-400">WA: 085361576156</p>
+          <p class="text-sm md:text-base text-gray-400">
+            Email: charmedcakes@gmail.com
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./src/main.js"></script>
+</html>

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@layer components {
+  .btn-glow {
+    @apply bg-rose-500 text-white px-8 py-3 rounded-full font-bold shadow-lg 
+           hover:bg-rose-600 transition transform hover:scale-105 active:scale-95 cursor-pointer;
+  }
+  .card-product {
+    @apply bg-white dark:bg-gray-800 border border-rose-100 dark:border-gray-700 
+           rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 text-center;
+  }
+
+  .btn-buy {
+    @apply mt-4 w-full py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition cursor-pointer;
+  }
+}
+
+@theme {
+  --animate-bounce-slow: bounce-slow 4s infinite;
+  @keyframes bounce-slow {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}

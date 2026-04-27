@@ -1,4 +1,6 @@
+// main.js
 import "./style.css";
+// Dark mode toggle
 const btn = document.getElementById("toggleDark");
 const html = document.documentElement;
 // Cek preferensi tersimpan
