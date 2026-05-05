@@ -1,0 +1,27 @@
+.todo-item.dragging {
+  opacity: 0.5;
+  background-color: #f3f4f6;
+}
+
+.priority-rendah {
+  border-left: 4px solid #10b981;
+}
+.priority-sedang {
+  border-left: 4px solid #f59e0b;
+}
+.priority-tinggi {
+  border-left: 4px solid #ef4444;
+}
+
+.completed-text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.edit-input {
+  width: 100%;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  padding: 2px 4px;
+  outline: none;
+}
